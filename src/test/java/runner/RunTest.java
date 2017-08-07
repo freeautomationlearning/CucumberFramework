@@ -1,17 +1,24 @@
 package runner;
 
-import org.junit.runner.RunWith;
+import org.testng.annotations.Test;
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+
 
 /**
  * @author CHIRAG
  *
  */
-@RunWith(Cucumber.class)
+
+// Uncomment @RunWith if you are using Junit to run Test 
+// @RunWith(Cucumber.class)
+
 @CucumberOptions(features={"src//test//java//features"}
-					,glue={"stepdefinations"}
-					,plugin = {"pretty", "html:target/cucumber"})
-public class RunTest {
+					,glue={"stepdefinations","utility"}
+					,plugin = {"pretty", "html:target/cucumber"}
+					, tags ={"@SearchText"}
+		)
+@Test
+public class RunTest extends AbstractTestNGCucumberTests{
 
 }

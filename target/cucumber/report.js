@@ -39,21 +39,21 @@ formatter.match({
   "location": "GoogleSearch.i_open_a_browser()"
 });
 formatter.result({
-  "duration": 4469052324,
+  "duration": 5431936863,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_navigate_to_google_page()"
 });
 formatter.result({
-  "duration": 3245003281,
+  "duration": 7428554491,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_validate_the_search_text_field()"
 });
 formatter.result({
-  "duration": 52628757,
+  "duration": 115316273,
   "status": "passed"
 });
 });

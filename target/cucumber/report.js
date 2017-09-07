@@ -13,7 +13,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4131034217,
+  "duration": 32938069062,
   "status": "passed"
 });
 formatter.scenario({
@@ -26,7 +26,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 4,
-      "name": "@SanityTest"
+      "name": "@web"
     }
   ]
 });
@@ -49,25 +49,25 @@ formatter.match({
   "location": "GoogleSearch.i_open_a_browser()"
 });
 formatter.result({
-  "duration": 3193477061,
+  "duration": 3481916484,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_navigate_to_google_page()"
 });
 formatter.result({
-  "duration": 9596487439,
+  "duration": 7631316846,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_validate_the_search_text_field()"
 });
 formatter.result({
-  "duration": 73750264,
+  "duration": 72920828,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1267092528,
+  "duration": 2018973476,
   "status": "passed"
 });
 });

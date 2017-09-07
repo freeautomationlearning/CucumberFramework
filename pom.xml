@@ -29,12 +29,20 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
 		</dependency>
-		<dependency>
+		
+<!-- 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
-			<version>3.2.0</version>
+			<version>2.48.0</version>
 		</dependency>
-		
+ -->
+ 
+  		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+ 		
 		<!-- Below Dependency for TestNG -->
 		<dependency>
 			<groupId>info.cukes</groupId>
@@ -53,6 +61,18 @@
 			<artifactId>testng</artifactId>
 			<version>6.10</version>
 			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+    		<groupId>io.appium</groupId>
+    		<artifactId>java-client</artifactId>
+    		<version>4.1.2</version>
+		</dependency>	
+		
+		<dependency>
+    		<groupId>com.google.guava</groupId>
+    		<artifactId>guava</artifactId>
+    		<version>22.0</version>
 		</dependency>
 	</dependencies>
 	<build>

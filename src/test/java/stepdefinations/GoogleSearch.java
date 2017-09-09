@@ -22,7 +22,7 @@ public class GoogleSearch {
 	
 	@Given("^I open a browser$")
 	public void i_open_a_browser() throws Throwable {
-		System.out.println("Browser is opened");
+		System.out.println("Browser is opened successfully");
 	}
 
 	@When("^I navigate to google page$")

@@ -22,14 +22,12 @@ public class GoogleSearch {
 	
 	@Given("^I open a browser$")
 	public void i_open_a_browser() throws Throwable {
-	 
-		Thread.sleep(3000);
-		System.out.println("Current URL : "+driver.getCurrentUrl());
+		System.out.println("Browser is opened");
 	}
 
 	@When("^I navigate to google page$")
 	public void i_navigate_to_google_page() throws Throwable {
-		driver.get("http://www.google.com");
+		driver.get("https://www.google.com");
 	}
 
 	@Then("^I validate the search text field$")

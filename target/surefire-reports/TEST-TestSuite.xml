@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.891" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="159.598" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
-    <property name="java.vm.version" value="25.66-b18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="E:\Testing\Automation\Learning_Youtube\GitRepo\CucumberFramework"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,18 +17,18 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="E:\Testing\Automation\Learning_Youtube\GitRepo\CucumberFramework"/>
-    <property name="java.runtime.version" value="1.8.0_66-b18"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\CHIRAG\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="E:\Testing\Automation\New Automation\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3962892048772419781.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files (x86)\Android\android-sdk\build-tools;C:\Program Files\nodejs\;C:\apache-maven-3.3.9/bin;C:\apache-ant-1.9.6/bin;C:\Users\CHIRAG\AppData\Local\Microsoft\WindowsApps;C:\Users\CHIRAG\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files (x86)\Android\android-sdk\build-tools;C:\Program Files\nodejs\;C:\apache-maven-3.3.9/bin;C:\apache-ant-1.9.6/bin;C:\Users\CHIRAG\AppData\Local\Microsoft\WindowsApps;C:\Users\CHIRAG\AppData\Roaming\npm;E:\Testing\Software\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -39,239 +39,26 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="CHIRAG"/>
-    <property name="java.class.path" value="C:\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/E:/Testing/Software/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.0.20150526-2031/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_66\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_121"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_66"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.3.9\bin\.."/>
+    <property name="maven.home" value="E:\Testing\Automation\Learning_Youtube\GitRepo\CucumberFramework\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="feature" classname="runner.RunTest" time="0.087">
-    <failure message="java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-Caused by: java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-</failure>
-    <system-out><![CDATA[#Author: freeautomationlearning@gmail.com
-Feature: Google Search
-&amp#27;[31mFailure in before hook:&amp#27;[0m&amp#27;[31mHook.setUp()&amp#27;[0m
-&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:111)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:302)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
-	at utility.Hook.setUp(Hook.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-&amp#27;[0m
-      &amp#27;[31mjava.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-      	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:111)
-      	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-      	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-      	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:302)
-      	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
-      	at utility.Hook.setUp(Hook.java:33)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:497)
-      	at cucumber.runtime.Utils$1.call(Utils.java:40)
-      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-      	at cucumber.runtime.Utils.invoke(Utils.java:34)
-      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-      	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:497)
-      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-      	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-      	at org.testng.TestRunner.run(TestRunner.java:610)
-      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-      	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-      	at org.testng.TestNG.runSuites(TestNG.java:1133)
-      	at org.testng.TestNG.run(TestNG.java:1104)
-      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-      &amp#27;[0m
-&amp#27;[31mFailure in after hook:&amp#27;[0m&amp#27;[31mHook.tearDown()&amp#27;[0m
-&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.NullPointerException
-	at utility.Hook.tearDown(Hook.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-&amp#27;[0m
-      &amp#27;[31mjava.lang.NullPointerException
-      	at utility.Hook.tearDown(Hook.java:52)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:497)
-      	at cucumber.runtime.Utils$1.call(Utils.java:40)
-      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-      	at cucumber.runtime.Utils.invoke(Utils.java:34)
-      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-      	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-      	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
-      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
-      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:497)
-      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-      	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-      	at org.testng.TestRunner.run(TestRunner.java:610)
-      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-      	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-      	at org.testng.TestNG.runSuites(TestNG.java:1133)
-      	at org.testng.TestNG.run(TestNG.java:1104)
-      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-      &amp#27;[0m
-
-  @web
-  Scenario: Validate google search text field &amp#27;[90m# SimpleScenario.feature:5&amp#27;[0m
-    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI open a browser&amp#27;[0m                    &amp#27;[90m# GoogleSearch.i_open_a_browser()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI navigate to google page&amp#27;[0m            &amp#27;[90m# GoogleSearch.i_navigate_to_google_page()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI validate the search text field&amp#27;[0m     &amp#27;[90m# GoogleSearch.i_validate_the_search_text_field()&amp#27;[0m
-]]></system-out>
-  </testcase>
+  <testcase name="feature" classname="runner.RunTest" time="158.262"/>
 </testsuite>

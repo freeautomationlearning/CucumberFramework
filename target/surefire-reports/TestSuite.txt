@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.891 sec <<< FAILURE! - in TestSuite
-feature(runner.RunTest)  Time elapsed: 0.087 sec  <<< FAILURE!
-cucumber.runtime.CucumberException: java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-Caused by: java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 159.598 sec - in TestSuite

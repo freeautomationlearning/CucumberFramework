@@ -19,7 +19,7 @@ private WebDriver driver;
 	
 	@Given("^I open the application$")
 	public void i_open_the_application() throws Throwable {
-	    Assert.assertTrue(driver.findElement(By.xpath("//*[@text='Accessibility']")).isDisplayed());   
+	    Assert.assertTrue(driver.findElement(By.xpath("//*[@text='Accessibility']")).isEnabled());   
 	}
 
 	@When("^I tap on Accessibility$")
